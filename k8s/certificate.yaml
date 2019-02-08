@@ -1,9 +1,9 @@
 apiVersion: certmanager.k8s.io/v1alpha1
 kind: Certificate
 metadata:
-  name: k8s-multi-com-tls
+  name: viktorwallstedt-se-tls
 spec:
-  secretName: k8s-multi-com
+  secretName: viktorwallstedt-se
   issuerRef:
     name: letsencrypt-prod
     kind: ClusterIssuer
